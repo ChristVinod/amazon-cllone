@@ -1,52 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Amazon</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Amazon</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-   <header>
-          <div class="navbar">
-                <div class="nav-logo border">
-                <div class="logo"></div>
-                </div>
-            
-                  <div class="nav-address border">
-                  <p class="add-first">Deliver to</p>
-                  <div class="add-icon ">
-                  <i class="fa-solid fa-location-dot"></i>
-                  <p class="add-second">India</p>
-                  </div>
-                  </div>
+  <header>
+    <div class="navbar">
+      <div class="nav-logo border">
+        <div class="logo"></div>
+      </div>
 
-                  <div class="nav-search">
-                  <select class="search-select">
-                  <option>All</option>
-                  </select>
-                  <input placeholder="search Amazon" class="search-input">
-                  <div class="search-icon">
-                  <i class="fa-solid fa-magnifying-glass"></i>
-                </div>
-           </div>
-     <!-- </div> -->
-     <div class="nav-signin border" >
-      <p><span>Hello, sign in </span></p>
-      <p class="nav-second">Account & Lists</p>
-     </div>
-     <div class="nav-return border">
-      <p><span>Returns</span></p>
-      <p class="nav-second">& Orders</p>
-     </div>
-     <div class="nav-cart border">
-      <i class="fa-solid fa-cart-shopping"></i>
-      cart
-     </div>
-          </div>
+      <div class="nav-address border">
+        <p class="add-first">Deliver to</p>
+        <div class="add-icon ">
+          <i class="fa-solid fa-location-dot"></i>
+          <p class="add-second">India</p>
+        </div>
+      </div>
 
-     <div class="panel">
+      <div class="nav-search">
+        <select class="search-select">
+          <option>All</option>
+        </select>
+        <input placeholder="search Amazon" class="search-input">
+        <div class="search-icon">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+      </div>
+      <!-- </div> -->
+      <div class="nav-signin border">
+
+
+
+        <a href="signin.html" class="signin-link">Hello, sign in</a>
+
+        <!-- <p><span>Hello, sign in </span></p> -->
+        <p class="nav-second">Account & Lists</p>
+      </div>
+      <div class="nav-return border">
+        <p><span>Returns</span></p>
+        <p class="nav-second">& Orders</p>
+      </div>
+      <div class="nav-cart border">
+        <i class="fa-solid fa-cart-shopping"></i>
+        cart
+      </div>
+    </div>
+
+    <div class="panel">
       <div class="panel-all">
         <i class="fa-solid fa-bars"></i>
         All
@@ -61,124 +70,212 @@
       <div class="panel-deals">
         Shop deals in Electronics
       </div>
-     </div>
-   </header>
-   <div class="hero-section">
-    <div class="hero-msg"><p>You are on amazon.com. you can also shop Amazon India for million of products with fast local delivery.<a> Click here to go to amazone.in</a></p></div>
+    </div>
+  </header>
+  <div class="hero-section">
+    <div class="hero-msg">
+      <p>You are on amazon.com. you can also shop Amazon India for million of products with fast local delivery.<a>
+          Click here to go to amazone.in</a></p>
+    </div>
 
-   </div>
-    
-   <div class="shop-section">
-    <div class="box1 box"> 
+  </div>
+
+  <div class="shop-section">
+    <div class="box1 box">
       <div class="box-content">
-      <h2>Clothes</h2>
-      <div class="box-img" style="background-image: url(box1_image.jpg);"></div>
-      <p>See more</p>
-       </div>
+        <h2>Clothes</h2>
+        <div class="box-img" style="background-image: url(box1_image.jpg);"></div>
+
+        <p class="see-more">See more</p>
+        <div class="product-details hidden">
+          <p>Stay updated with the latest styles, clothing designs, and fashion statements.</p>
+          <p>Price: $400</p>
+
+        </div>
+      </div>
+
     </div>
     <div class="box">
       <div class="box-content">
         <h2>Helth & personal Care </h2>
         <div class="box-img" style="background-image: url(box2_image.jpg);"></div>
-        <p>See more</p>
+        <p class="see-more">See more</p>
+        <div class="product-details hidden">
+          <p>Products and services focused on maintaining personal well-being, hygiene, and grooming.</p>
+          <p>Price: $200</p>
         </div>
+      </div>
     </div>
     <div class="box">
       <div class="box-content">
         <h2>Furniture </h2>
         <div class="box-img" style="background-image: url(box3_image.jpg);"></div>
-        <p>See more</p>
+        <p class="see-more">See more</p>
+        <div class="product-details hidden">
+          <p>Supplies and services catering to the needs of pets, including food, grooming, toys, and healthcare.</p>
+          <p>Price: $100</p>
         </div>
+      </div>
     </div>
     <div class="box">
       <div class="box-content">
         <h2>Electronics</h2>
         <div class="box-img" style="background-image: url(box4_image.jpg);"></div>
-        <p>See more</p>
+        <p class="see-more">See more</p>
+        <div class="product-details hidden">
+          <p>Curated selection of beauty products ranging from skincare and makeup to haircare and fragrances.</p>
+          <p>Price: $600</p>
         </div>
+      </div>
     </div>
-    <div class="box"> 
+    <div class="box">
       <div class="box-content">
-      <h2>Beauty picks</h2>
-      <div class="box-img" style="background-image: url(box5_image.jpg);"></div>
-      <p>See more</p>
-       </div>
+        <h2>Beauty picks</h2>
+        <div class="box-img" style="background-image: url(box5_image.jpg);"></div>
+        <p class="see-more">See more</p>
+        <div class="product-details hidden">
+          <p>Gadgets, devices, and technological innovations spanning from smartphones and laptops to smart home
+            appliances.</p>
+          <p>Price: $500</p>
+        </div>
+      </div>
     </div>
     <div class="box">
       <div class="box-content">
         <h2>pet Care </h2>
         <div class="box-img" style="background-image: url(box6_image.jpg);"></div>
-        <p>See more</p>
+        <p class="see-more">See more</p>
+        <div class="product-details hidden">
+          <p>Range of home furnishings including sofas, chairs, tables, and decor items to enhance living spaces.</p>
+          <p>Price: $500</p>
         </div>
+      </div>
     </div>
     <div class="box">
       <div class="box-content">
         <h2>Health & personal Cear </h2>
         <div class="box-img" style="background-image: url(box7_image.jpg);"></div>
-        <p>See more</p>
+        <p class="see-more">See more</p>
+        <div class="product-details hidden">
+          <p>Products and services focused on maintaining personal well-being, hygiene, and grooming.</p>
+          <p>Price: $450</p>
         </div>
+      </div>
     </div>
     <div class="box">
       <div class="box-content">
         <h2>Discover Fasion Trends</h2>
         <div class="box-img" style="background-image: url(box8_image.jpg);"></div>
-        <p>See more</p>
+        <p class="see-more">See more</p>
+        <div class="product-details hidden">
+          <p>Stay updated with the latest styles, clothing designs, and fashion statements.</p>
+          <p>Price: $50</p>
         </div>
+      </div>
     </div>
-   </div>
-    <footer>
-      <div class="foot-panel1">
-         Back to Top
-      </div>
-      <div class="foot-panel2">
-        <ul>
-          <p>Get to Know Us</p>
-          <a>Careers</a>
-          <a>Blog</a>
-          <a>About Amazon</a>
-          <a>Investor Relation</a>
-          <a>Amazon Davices</a>
-          <a>Amazon Science</a>
-        </ul>
-        <ul>
-          <p>Get to Know Us</p>
-          <a>Careers</a>
-          <a>Blog</a>
-          <a>About Amazon</a>
-          <a>Investor Relation</a>
-          <a>Amazon Davices</a>
-          <a>Amazon Science</a>
-        </ul>
-        <ul>
-          <p>Get to Know Us</p>
-          <a>Careers</a>
-          <a>Blog</a>
-          <a>About Amazon</a>
-          <a>Investor Relation</a>
-          <a>Amazon Davices</a>
-          <a>Amazon Science</a>
-        </ul>
-        <ul>
-          <p>Get to Know Us</p>
-          <a>Careers</a>
-          <a>Blog</a>
-          <a>About Amazon</a>
-          <a>Investor Relation</a>
-          <a>Amazon Davices</a>
-          <a>Amazon Science</a>
-        </ul>
-      </div>
-      
-      <div class="foot-panel3">
-        <div class="logo"></div>
-      </div>
-      <div class="foot-panel4">
-        <div class="pages"></div>
-      </div>
-    </footer>
+  </div>
+  <footer>
+    <div class="foot-panel1">
+      Back to Top
+    </div>
+    <div class="foot-panel2">
+      <ul>
+        <p>Get to Know Us</p>
+        <a>Careers</a>
+        <a>Blog</a>
+        <a>About Amazon</a>
+        <a>Investor Relation</a>
+        <a>Amazon Davices</a>
+        <a>Amazon Science</a>
+      </ul>
+      <ul>
+        <p>Get to Know Us</p>
+        <a>Careers</a>
+        <a>Blog</a>
+        <a>About Amazon</a>
+        <a>Investor Relation</a>
+        <a>Amazon Davices</a>
+        <a>Amazon Science</a>
+      </ul>
+      <ul>
+        <p>Get to Know Us</p>
+        <a>Careers</a>
+        <a>Blog</a>
+        <a>About Amazon</a>
+        <a>Investor Relation</a>
+        <a>Amazon Davices</a>
+        <a>Amazon Science</a>
+      </ul>
+      <ul>
+        <p>Get to Know Us</p>
+        <a>Careers</a>
+        <a>Blog</a>
+        <a>About Amazon</a>
+        <a>Investor Relation</a>
+        <a>Amazon Davices</a>
+        <a>Amazon Science</a>
+      </ul>
+    </div>
 
+    <div class="foot-panel3">
+      <div class="logo"></div>
+    </div>
+    <div class="foot-panel4">
+      <div class="pages"></div>
+    </div>
+  </footer>
+
+  <script>
+
+    const seeMoreButtons = document.querySelectorAll('.see-more');
+    const productDetails = document.querySelectorAll('.product-details');
+
+    function handleSeeMoreClick(event) {
+      const productDetail = event.target.nextElementSibling;
+
+      productDetail.classList.toggle('visible');
+
+      const box = event.target.closest('.box');
+      box.classList.toggle('expanded');
+    }
+
+    seeMoreButtons.forEach(button => {
+      button.addEventListener('click', handleSeeMoreClick);
+    });
+
+
+    function handleScroll() {
+      const scrollTop = document.documentElement.scrollTop;
+      const windowHeight = window.innerHeight;
+      const documentHeight = document.documentElement.scrollHeight;
+
+      if (scrollTop + windowHeight >= documentHeight - 100) {
+        const newBox = document.createElement('div');
+        newBox.classList.add('box');
+        newBox.innerHTML = `
+            <div class="box-content">
+                <h2>New Product</h2>
+                <div class="box-img" style="background-image: url(box1_image.jpg);"></div>
+                <p class="see-more">See more</p>
+                <div class="product-details hidden">
+                    <p>This Product is added dynamically.</p>
+                    <p>Price: $100.00</p>
+                </div>
+            </div>
+        `;
+        document.querySelector('.shop-section').appendChild(newBox);
+
+        const newSeeMoreButton = newBox.querySelector('.see-more');
+        newSeeMoreButton.addEventListener('click', handleSeeMoreClick);
+      }
+    }
+
+    window.addEventListener('scroll', handleScroll);
+
+  </script>
 
 
 
 </body>
+
 </html>
